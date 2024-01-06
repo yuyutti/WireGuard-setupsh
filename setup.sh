@@ -42,7 +42,7 @@ AllowedIPs = 172.16.0.1/32
 sudo sh -c 'echo "
 [Interface]
 PrivateKey = $(cat /etc/wireguard/client_privatekey)
-Address = 10.0.0.2/24
+Address = 172.16.0.1/32
 DNS = 1.1.1.1
 
 [Peer]
